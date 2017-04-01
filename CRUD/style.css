@@ -1,0 +1,81 @@
+*{
+	margin: 0px; padding: 0px;
+	font-family: 'Noto Sans', sans-serif; font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	max-width: 100%; max-height: 100%;
+}
+
+/*-- pemulaannye --*/
+#pemulaan{
+	background: url('bgrnd.jpg') no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
+
+	height: 1000px;
+	padding-top: 20px;
+}
+.hapus{
+	clear: both;
+}
+.konten{
+	width: 960px;
+	margin: 0 auto;
+}
+.kolom_3{
+	width: 300px; float: left;
+}
+.kolom_3_tengah{
+	margin: 0 30px;
+}
+#logo{
+	display: block; width: 100px; margin: 0 auto;
+}
+#menu{
+	background-color: #808080;
+	height: 50px; line-height: 50px;
+	font-size: 20px;
+}
+#menu a{
+	display: block; text-align: center; color: white;
+}
+#menu a:hover{
+	background-color: #778899;
+}
+#kotak_ocehan{
+	background-color: rgba(75, 75, 75, 0.7);
+	color: white;
+	font-size: 30px;
+	text-align: center; margin: 80px; padding: 20px 0;
+}
+#kotak_ocehan a{
+	display: block;
+	border: 2px solid white;
+	color: white;
+	padding: 5px 0;
+	width: 300px;
+	margin: 25px auto 0 auto;
+}
+#kotak_ocehan a:hover{
+	background-color: #778899;
+	color: white;
+}
+#kedue {
+	background-size: 1000px;
+	text-decoration: none;
+	background-color: #008080;
+		height: 1000px;
+	padding-top: 20px;
+}
